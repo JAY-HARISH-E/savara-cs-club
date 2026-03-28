@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: #0f172a;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #020617;
+  color: white;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: #cbd5f5;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+/* CONTENT */
+.content {
+  background: #f8fafc;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+/* PRODUCT GRID */
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  padding: 15px;
+  width: 220px;
+  border-radius: 10px;
+}
+
+/* BUTTON */
+button {
+  margin-top: 5px;
+  padding: 8px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* LOGIN */
+.center-box {
+  width: 350px;
+  margin: 120px auto;
+  padding: 25px;
+  background: white;
+  text-align: center;
+}
+
+/* ADMIN */
+.main {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #020617;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #cbd5f5;
+  text-decoration: none;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
