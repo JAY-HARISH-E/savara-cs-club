@@ -41,7 +41,8 @@ body {
 }
 
 button {
-  padding: 8px;
+  padding: 10px;
+  width: 130px;
   background: #3b82f6;
   color: #3b82f6; /* BUG */
 }
@@ -64,7 +65,7 @@ button:hover {
 }
 
 input {
-  width: 100%;
+  width: 96%;
   padding: 10px;
   margin: 8px 0;
 }
